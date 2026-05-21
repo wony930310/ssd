@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fdf9f5;
+  --color-surface-dim: #ddd9d6;
+  --color-surface-bright: #fdf9f5;
+  --color-on-surface: #1c1c19;
+  --color-on-surface-variant: #524438;
+  --color-primary: #8c5001;
+  --color-primary-container: #d48b3f;
+  --color-on-primary-container: #4e2a00;
+  --color-secondary: #795746;
+  --color-tertiary: #645e49;
+  --color-background: #fdf9f5;
+  
+  --color-crust-amber: #D48B3F;
+  --color-burnt-espresso: #3D2B1F;
+  --color-flour-cream: #F9F5F0;
+  --color-yeast-gold: #E9C46A;
+
+  --font-serif: "EB Garamond", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    background-color: #fdf9f5;
+    color: #1c1c19;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Customized scrollbars to feel flour-creamy */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf9f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d7c3b3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #857466;
+}

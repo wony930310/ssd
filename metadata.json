@@ -1,0 +1,6 @@
+{
+  "name": "Sungsimdang Bakery",
+  "description": "대전의 자랑이자 대한민국 명물 베이커리 성심당의 대표 시그니처 메뉴들과 브랜드 철학, 매장 위치를 상세히 소개하는 하이엔드 브랜드 웹 아카이브입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
